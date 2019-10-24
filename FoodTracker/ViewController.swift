@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         mealNameLabel.text = "Default Text"
     }
     
+    @IBAction func test(_ sender: UIButton) {
+        mealNameLabel.text = "test"
+    }
     
 
 }
